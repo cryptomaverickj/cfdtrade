@@ -72,7 +72,7 @@ with col3:
         close_position()
 
 # Simulate price updates
-while True:
-    time.sleep(1)  # Wait 1 second between price updates
-    update_price()
-    st.experimental_rerun()  # Refresh the app to display updated price
+#while True:
+update_price()
+time.sleep(1)  # Wait 1 second between price updates
+st.experimental_rerun()  # Refresh the app to display updated price
