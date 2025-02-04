@@ -75,4 +75,4 @@ with col3:
 #while True:
 update_price()
 time.sleep(1)  # Wait 1 second between price updates
-st.experimental_rerun()  # Refresh the app to display updated price
+#st.experimental_rerun()  # Refresh the app to display updated price
